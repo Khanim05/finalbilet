@@ -1,0 +1,70 @@
+#team_area .image{
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+}
+#team_area .content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#team_area .content .header{
+    font-size: 20px;
+    opacity: 0.3;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#team_area .content .title{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#team_area .team-product{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;  
+    max-width: 1200px; 
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+#team_area .team-product .product{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#team_area .team-product .product .text{
+    width: 250px;
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#team_area .team-product .icon-area{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+#team_area .team-product .product .name{
+    font-family: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#team_area .team-product .product .icon-area .icon{
+    font-size: 20px;
+    color: rgb(248, 107, 26);
+}
+@media screen  and (max-width:992px){
+    #team_area{
+    margin-top: 300px;
+}
+}
+
+
+
+
+
+
+

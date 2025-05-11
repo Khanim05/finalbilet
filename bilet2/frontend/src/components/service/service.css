@@ -1,0 +1,53 @@
+#service_area .content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+#service_area{
+    margin-top: 130px;
+}
+
+#service_area .content .header{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    opacity: 0.4;
+}
+#service_area .content .title{
+    font-size: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#service_area .service-product{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 20px;
+}
+#service_area .product{
+    display: flex;
+    width: 300px;
+    gap: 10px;
+}
+#service_area .product-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0.7;
+}
+#service_area .icon{
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+}
+#service_area .product-content .president{
+    line-height: 130%;
+}
+
+
+

@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    gap:15px
+}
+.list a{
+    color: #000;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+@media screen and (max-width:992px){
+    .list{
+        display: none;
+    }
+}

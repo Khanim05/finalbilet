@@ -1,0 +1,79 @@
+#basket-area{
+    margin-top: 100px;
+}
+Table{
+    margin-top: 10px;
+    text-align: center;
+}
+#basket-area .image{
+ width: 300px;
+ height: 300px;
+}
+#basket-area .count-area{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+#basket-area .mnsBtn, .plsBtn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+
+}
+#basket-area td{
+    vertical-align: middle;
+}
+#basket-area .removeBtn{
+    border: none;
+    width: 140px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+
+}
+
+#basket-area .count-area p{
+    font-weight: bold;
+}
+
+#basket-area .total{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#basket-area .mnsBtn:disabled{
+    cursor: not-allowed;
+}
+#basket-area .card-area{
+    background-color:orange;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#basket-area .card-area .cards{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: rgb(231, 233, 235);
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 3px;
+    padding: 5px;
+    margin: 10px auto;
+}

@@ -1,0 +1,68 @@
+.basket{
+    display: flex;
+    gap: 5px;
+}
+.basket a {
+    color: orange
+}
+.basket sup{
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.basket .icon{
+    font-size: 20px;
+}
+.area{
+    display: flex;
+    gap: 10px;
+}
+.dropdown a {
+    color: black;
+}
+.sidebar{
+    width: 98px;
+    background-color: gainsboro;
+    color: orange;
+    font-size: 30px;
+}
+.menu{
+    position: relative;
+}
+.dropdown{
+    text-align: center;
+    padding: 8px;
+    background-color: gainsboro;
+    position: absolute;
+    top:30px;
+    right: 0px;
+    display: none;
+}
+.menu li:hover .dropdown{
+    display: block;
+}
+.dropdown li a:hover{
+   color: white;
+   background-color: orange;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width:992px) {
+    .menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .area{
+        flex-direction: column;
+    }
+    .basket{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

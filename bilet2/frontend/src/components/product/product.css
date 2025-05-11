@@ -1,0 +1,50 @@
+#card-area .image{
+  width: 330px;
+  height: 330px;
+}
+#card-area .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#card-area .star{
+    color: orange;
+}
+#card-area .rating{
+    display: flex;
+    gap: 10px;
+}
+#card-area .heart{
+    color: rgb(252, 227, 194);
+}
+#card-area .btn-area{
+    display: flex;
+    gap: 10px;
+}
+#card-area .add-card{
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#card-area .detail{
+     cursor: pointer;
+    border: 2px solid black;
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#card-area{
+    margin-top: 20px;
+}

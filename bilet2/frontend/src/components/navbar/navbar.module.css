@@ -1,0 +1,36 @@
+.navbarArea .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.navbarArea .fixed{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+}
+@media screen and (max-width:992px) {
+      .navbarArea .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+}
+@media screen  and (max-width:450px){
+    .navbarArea .container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navbarArea .fixed{
+        position: fixed;
+        height: 250px;
+    }
+}

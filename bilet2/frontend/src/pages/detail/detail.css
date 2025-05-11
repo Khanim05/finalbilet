@@ -1,0 +1,75 @@
+#detail-area .image{
+  width: 330px;
+  height: 330px;
+}
+#detail-area .detail{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+#detail-area .star{
+    color: orange;
+}
+#detail .rating{
+    display: flex;
+    gap: 10px;
+}
+#detail-area .heart{
+    color: rgb(252, 227, 194);
+}
+
+#detail-area .add-card{
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#detail-area{
+    margin-top: 120px;
+}
+#detail-area .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#detail-area .cards-area{
+    background-color:orange;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#detail-area .cards-area .cardss{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+#detail-area .card-area{
+    background-color:orange;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#detail-area .card-area .cards{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
