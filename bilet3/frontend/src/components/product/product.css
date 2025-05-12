@@ -1,0 +1,45 @@
+.card-area .image{
+    width: 250px;
+    height: 230px;
+}
+.card-area .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-area{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 3px;
+}
+.card-area .title{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-area .price{
+    font-size: 20px;
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-area .icon{
+    color: rgb(255, 168, 39);
+}
+.card-area .addProd{
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:768px) {
+  .card-area{
+    margin-top: 20px;
+  }
+}
+

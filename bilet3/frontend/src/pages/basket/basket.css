@@ -1,0 +1,39 @@
+Table{
+    text-align: center;
+    margin-top: 100px;
+}
+th,td{
+    vertical-align: middle;
+}
+.image{
+    width: 300px;
+
+}
+.count-area{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+.mnsBtn, .plsBtn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgb(77, 77, 5);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.count-area p{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.mnsBtn:disabled{
+    cursor: not-allowed;
+}
+.total{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}

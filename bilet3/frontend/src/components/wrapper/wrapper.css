@@ -1,0 +1,47 @@
+#wrapper-area{
+    display: flex;
+    gap: 10px;
+}
+#wrapper-area .basket{
+    display: flex;
+    gap: 5px;
+}
+#wrapper-area .basket a{
+    font-size: 20px;
+    color: black;
+}
+#wrapper-area .basket sup{
+    color: brown;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper-area .sidebar{
+    position: relative;
+}
+#wrapper-area .sidebar .burger{
+    background-color: gainsboro;
+    font-size: 25px;
+}
+#wrapper-area .sidebar .dropdown{
+    position: absolute;
+    background-color: gainsboro;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 4px;
+}
+#wrapper-area .sidebar .dropdown a{
+    font-weight: bold;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+#wrapper-area .sidebar{
+    display: none;
+}
+
+
+
+

@@ -1,0 +1,58 @@
+#main-area{
+    height: 100vh;
+    margin-top: 30px;
+    background-color: antiquewhite;
+}
+#main-area .main-area{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-area img{
+    width: 406px;
+    height: 500px;
+}
+.main-area .sale{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-area .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-area h1{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-area .discover{
+    border: none;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(186, 243, 132);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+@media screen and (max-width:768px) {
+    #main-area .main-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 40px;
+    }
+    .content{
+        margin-top: 130px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+

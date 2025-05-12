@@ -1,0 +1,25 @@
+#navbar-area .div{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.fixed{
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+@media screen and (max-width:768px){
+    #navbar-area .div{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+}

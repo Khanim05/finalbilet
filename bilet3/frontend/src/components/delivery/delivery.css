@@ -1,0 +1,53 @@
+#deliveri-area{
+    margin-top: 140px;
+}
+#deliveri-area .area{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#deliveri-area .ship{
+flex-wrap: wrap;
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+#deliveri-area .icon{
+    font-size: 35px;
+    color: rgb(102, 102, 22);
+}
+#deliveri-area .area h5{
+font-size: 18px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#deliveri-area .area p{
+    opacity: 0.7;
+    font-size: 12px;
+}
+#deliveri-area .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+@media screen and (max-width:796px) {
+    #deliveri-area .area{
+         justify-content: center;
+         align-items: center;
+         display: flex;
+    }
+    #deliveri-area .ship{
+        align-items: center;
+        justify-content: center;
+}
+}
+
+
