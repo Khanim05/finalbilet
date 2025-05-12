@@ -1,0 +1,71 @@
+#wrapper-area{
+    display: flex;
+    gap: 10px;
+}
+#wrapper-area .basket{
+    display: flex;
+    gap: 4px;
+}
+#wrapper-area .basket sup{
+    margin-left: 3px;
+    font-weight: bold;
+    color: red;
+}
+#wrapper-area .sidebar{
+    position: relative;
+}
+#wrapper-area .dropdown{
+    position: absolute;
+    left: -25px;
+    gap: 5px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+
+}
+#wrapper-area .basket .icon{
+    color: black;
+    font-size: 20px;
+}
+#wrapper-area .burger{
+    font-size: 25px;
+}
+#wrapper-area .sidebar .dropdown li a{
+    font-size: 18px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#wrapper-area .sidebar .burger .dropdown{
+    display: none;
+}
+
+#wrapper-area .sidebar .burger:hover .dropdown{
+    display: block;
+}
+#wrapper-area .sidebar .dropdown li a:hover{
+ color: red;
+}
+#wrapper-area .sidebar{
+    display: none;
+}
+
+.menutxt{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:768px){
+    #wrapper-area .sidebar{
+    display: block;
+}
+#wrapper-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+

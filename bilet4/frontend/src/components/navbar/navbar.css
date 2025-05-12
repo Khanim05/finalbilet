@@ -1,0 +1,27 @@
+.navbar-area{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.fixed{
+    height: 80px;
+}
+
+@media screen and (max-width:768px){
+    .navbar-area{
+        padding: 40px;
+        display: flex;
+        
+    }
+}
+@media screen  and (max-width:450px){
+    .navbar-area{
+     display: flex;
+     flex-direction: column;
+    }
+    
+}

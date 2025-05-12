@@ -1,0 +1,15 @@
+.form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -40%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 14px;
+    background-color: rgb(243, 243, 241);
+    margin-top: 20px;
+}
+Table{
+    margin-top: 20px;
+}

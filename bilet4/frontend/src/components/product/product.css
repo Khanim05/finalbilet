@@ -1,0 +1,38 @@
+ #card-area .card{
+    margin-top: 20px;
+    border:1px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+    height: 400px;
+ }
+ #card-area .image{
+    width: 335px;
+    height: 227px;
+    border-radius: 4px;
+ }
+ #card-area .price{
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ #card-area .title{
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #card-area .addCard{
+    width: 130px;
+    height: 30px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ #card-area .card .content{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }

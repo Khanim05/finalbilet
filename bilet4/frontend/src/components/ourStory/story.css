@@ -1,0 +1,88 @@
+#story-area{
+    margin-top: 120px;
+}
+#story-area .area{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#story-area .image{
+width: 430px;
+height: 285px;
+border-radius: 5px;
+}
+#story-area .content{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#story-area .header1{
+    font-size: 25px;
+    opacity: 0.4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#story-area h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#story-area .content .txt{
+    opacity: 0.4;
+    font-size: 18px;
+    line-height: 150%;
+}
+#story-area button{
+    width: 190px;
+    height: 50px;
+    border: 2px solid gray;
+    background-color: transparent;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media screen and (max-width:450px){
+    #story-area .area{
+   padding: 40px;
+   display: flex;
+   gap: 30px;
+}
+
+   #story-area .image{
+      width: 220px;
+      width: 330px;
+}
+
+
+}
+
+@media screen and (max-width:768px){
+    #story-area .area{
+   padding: 40px;
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+   #story-area .image{
+      width: 220px;
+      width: 330px;
+}
+
+#story-area .content{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+}

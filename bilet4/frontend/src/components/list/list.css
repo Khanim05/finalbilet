@@ -1,0 +1,16 @@
+#list-area .list{
+    display: flex;
+    gap: 10px;
+}
+#list-area .list li a{
+    color: black;
+    font-size: 18px;
+    opacity: 0.8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width:768px){
+    #list-area .list{
+        display: none;
+    }
+}
