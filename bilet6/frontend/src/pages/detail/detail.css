@@ -1,0 +1,47 @@
+#detail-area .cards .image{
+    width: 210px;
+    height: 223px;
+}
+#detail-area .cards .content{
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#detail-area .cards .title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+#detail-area .cards .price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    opacity: 0.4;
+}
+#detail-area .cards .content button{
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#detail-area{
+    margin-top: 180px;
+}
+#detail-area .cards{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#detail-area .desc{
+    width: 600px;
+    text-align: justify;
+}
+
+
+

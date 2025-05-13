@@ -1,0 +1,53 @@
+#best-area .header p{
+   text-align: end;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#best-area .header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#best-area .bests{
+max-width: 1200px;
+margin: 0 auto;
+padding: 40px;
+}
+#best-area .header h1 span{
+    font-weight: bold;
+    margin-left: 150px;
+    font-size: 16px;
+    opacity: 0.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+#best-area{
+    margin-top: 50px;
+}
+#best-area .cards .image{
+    width: 210px;
+    height: 223px;
+}
+
+#best-area .cards .content{
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#best-area .cards .title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+#best-area .cards .price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    opacity: 0.4;
+}
+
+#best-area .best-card{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,58 @@
+#product-area .products{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+#product-area .header p{
+   text-align: end;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#product-area .header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#product-area .header h1 span{
+    margin-left: 150px;
+    font-size: 16px;
+    opacity: 0.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+#product-area{
+    margin-top: 100px;
+    padding: 20px;
+}
+#product-area .filter{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+#product-area .filter button{
+    border: none;
+    height: 35px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100px;
+}
+#product-area .filter input{
+    width: 300px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#product-area .product{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}

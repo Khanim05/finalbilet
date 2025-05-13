@@ -1,0 +1,60 @@
+#basket-area{
+    margin-top: 80px;
+}
+#basket-area .image{
+    width: 200px;
+    height: 200px;
+}
+#basket-area Table{
+    text-align: center;
+}
+#basket-area td{
+    vertical-align: middle;
+}
+#basket-area .count-area{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+
+}
+#basket-area .count-area button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(129, 177, 179);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+#basket-area .count-area p{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#basket-area .price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#basket-area .title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: bold;
+}
+.total{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.create{
+    margin-top: 30px;
+    width: 120px;
+}
+Form{
+    margin-top: 20px;
+    width: 400px;
+    position: relative;
+    right: -38%;
+    border: 1px solid #ccc;
+    padding:25px;
+    border-radius: 3px;
+    background-color: rgb(242, 244, 247);
+}
+Form Button{
+    width: 100%;
+}
