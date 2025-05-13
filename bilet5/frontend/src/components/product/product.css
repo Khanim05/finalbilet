@@ -1,0 +1,39 @@
+#card-area .image{
+    width: 300px;
+    height: 300px;
+}
+
+#card-area .card{
+    margin-top: 30px;
+    border: 1px solid gray;
+    height: 500px;
+    border-radius: 5px;
+}
+
+
+#card-area .content{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+#card-area .content .title{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#card-area .content .price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-weight: bold;
+}
+#card-area .content .addCard{
+    border: none;
+    height: 40px;
+    width: 140px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+#wrapper-area{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#wrapper-area a{
+    color: black;
+}
+#wrapper-area .basket{
+    background-color: rgb(230, 228, 228);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#wrapper-area .basket .count{
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper-area .burger{
+    font-size: 25px;
+}
+#wrapper-area .siderbar{
+    display: none;
+}
+
+@media screen and (max-width:762px) {
+    #wrapper-area .siderbar{
+    display: block;
+}
+}
+
+
+

@@ -1,0 +1,58 @@
+Table{
+    text-align: center;
+    margin-top: 20px;
+}
+td,th{
+    vertical-align: middle;
+}
+.count-area{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.count-area button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: rgb(212, 116, 5);
+    font-weight: bold;
+    color: white;
+}
+.count-area p{
+  margin-top: 15px;
+  font-weight: bold;
+
+}
+.image{
+    width: 300px;
+    height: 300px;
+}
+.headerCart{
+    width: 100%;
+    background-color: rgb(238, 61, 61);
+    height: 120px;
+}
+.headerCart p{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+Table .title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+Table .price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.mnsBtn:disabled{
+    cursor: not-allowed;
+}
+.total{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

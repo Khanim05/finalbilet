@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    gap: 40px;
+}
+.list li a{
+    color: black;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width:762px) {
+    .list{
+        display: none;
+    }
+}

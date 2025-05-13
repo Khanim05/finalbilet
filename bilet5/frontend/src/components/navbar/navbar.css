@@ -1,0 +1,19 @@
+.navbar-area{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 100%;
+    align-items: center;
+}
+.fixed{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}

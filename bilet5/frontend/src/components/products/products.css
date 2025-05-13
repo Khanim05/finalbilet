@@ -1,0 +1,41 @@
+#product-area .products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+#product-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+#product-area .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#product-area .content h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    opacity: 0.8;
+}
+#product-area .btn-area{
+    display: flex;
+    gap: 10px;
+}
+#product-area .btn-area button{
+    border: 1px solid gray;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+  
+
+   
+}
+
+
+
