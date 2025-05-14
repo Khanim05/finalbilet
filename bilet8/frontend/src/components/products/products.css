@@ -1,0 +1,49 @@
+#product-area{
+
+    margin-top: 150px;
+}
+
+#product-area .headerP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#product-area .headerP h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#product-area .headerP p{
+    opacity: 0.8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#product-area .headerP .links{
+    display: flex;
+    gap: 30px;
+}
+#product-area .links a{
+    color: black;
+    opacity: 0.6;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#product-area .filterArea{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;  
+}
+#product-area .filterArea button{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#product-area .product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+

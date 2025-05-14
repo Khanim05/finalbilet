@@ -1,0 +1,113 @@
+#main-area .main{
+    display: flex;
+    gap: 10px;
+}
+#main-area .main .sidebar{
+    width: 100%;
+    height: 585px;
+    background-repeat: no-repeat;
+    background: url("http://ecolife.posthemes.com/demo11/fashion9/img/cms/fs9_s1.jpg");
+}
+#main-area .main .sidebar .content-main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 670px; 
+}
+#main-area .main .sidebar .content-main h1{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#main-area{
+    margin-top: 80px;
+}
+#main-area .content-main .txt{
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.8;
+}
+#main-area .content-main .text{
+    font-size: 18px;
+    opacity: 0.8;
+}
+#main-area .content-main a{
+    border-bottom: 1px solid rgb(105, 105, 105);
+    width: 100px;
+    color: rgb(105, 105, 105);
+}
+
+.div-area img{
+    width: 217px;
+    height: 275px;
+}
+.div-area{
+    display: flex;
+    gap: 20px;
+}
+.img-content{
+    position: relative;
+}
+.img-content .text-area{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.div{
+    position: relative;
+}
+.div .div-content{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.image-area{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width:762px){
+    #main-area .main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#main-area{
+    margin-top: 80px;
+}
+.image-area{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-area{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-area img{
+    width: 100%;
+    height: 100%;
+}
+#main-area .main .sidebar .content-main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 670px; 
+}
+}
+
+@media screen and (max-width:450px){
+#main-area .main .sidebar .content-main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 470px; 
+}
+}
+
+
+
+
+

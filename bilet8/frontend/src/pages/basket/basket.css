@@ -1,0 +1,10 @@
+Table{
+    text-align: center;
+}
+td,th{
+    vertical-align: middle;
+}
+
+#basket-area{
+    margin-top: 80px;
+}

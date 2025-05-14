@@ -1,0 +1,34 @@
+.list-area{
+    position: relative; 
+    height: 80px;
+}
+.list-area .list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+.list-area .list li a{
+    color: black;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list-area .position{
+    position: absolute;
+    right: 170px;
+    top: 10px;
+    background-color: red;
+    width: 45px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:762px) {
+    .list-area{
+        display: none;
+    }
+}

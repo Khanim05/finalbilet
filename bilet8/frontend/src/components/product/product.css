@@ -1,0 +1,61 @@
+#card-area .cards .image{
+    width: 275px;
+    height: 335;
+}
+
+#card-area{
+    margin-top: 50px;
+}
+#card-area .cards .img{
+position: relative;
+}
+#card-area .cards .img .pos{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 86px;
+    padding: 2px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+#card-area .cards .text{
+    font-variant: small-caps;
+    opacity: 0.8;
+    font-size: 18px;
+}
+#card-area .cards .icon-area .star-icon{
+    color: rgb(255, 196, 0);
+    font-size: 18px;
+
+}
+#card-area .cards .icon-area {
+    display: flex;
+    gap: 2px;
+}
+#card-area .cards .price{
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    opacity: 0.8;
+}
+#card-area .cards button{
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 140px;
+    height: 30px;
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+
+
