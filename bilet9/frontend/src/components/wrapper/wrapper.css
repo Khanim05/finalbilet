@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+   gap: 18px;
+}
+.wrapper .icon{
+    font-size: 18px;
+}
+.wrapper a{
+    color: black;
+}
+.wrapper .menu{
+    font-size: 25px;
+}
+.wrapper a sup{
+    font-weight: bold;
+    margin-left: 2px;
+    font-size: 14px;
+    color: rgb(11, 141, 248);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper .sidebar{
+    display: none;
+}
+
+@media screen and (max-width:762px) {
+    .sidebar{
+        display: block !important;
+    }
+}

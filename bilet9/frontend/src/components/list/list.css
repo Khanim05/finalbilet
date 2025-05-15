@@ -1,0 +1,19 @@
+.list{
+    display: flex;
+    gap: 40px;
+   font-family: monospace;
+   margin-top: 20px;
+    
+
+}
+.list li a {
+    color: black;
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width:762px) {
+    .list{
+        display: none;
+    }
+}

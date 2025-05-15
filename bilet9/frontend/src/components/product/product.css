@@ -1,0 +1,31 @@
+.card-area .content{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.content .title{
+    font-size: 30px;
+}
+.content .text{
+    opacity: 0.7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.content .price{
+    font-size: 30px;
+}
+.content .addBasket{
+margin-top: 20px;
+width: 150px;
+height: 40px;
+color: white;
+border: none;
+font-weight: bold;
+background-color: rgb(11, 141, 248);;
+}
