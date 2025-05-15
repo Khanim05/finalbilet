@@ -11,7 +11,7 @@ const Product = ({products}) => {
   return (
     <div className='card-area'>
       <div className="cards" onClick={()=>navigate(`detail/${products._id}`)}>
-        <img src={image} alt="" />
+        <img src={image} alt="" className='image' />
         <div className="content">
           <h5 className='title'>{title}</h5>
           <p className='text'>{text}</p>

@@ -61,7 +61,7 @@ const productSlice=createSlice({
             state.filterProduct.push(action.payload)
         }),
          builder.addCase(delProduct.fulfilled,(state,action)=>{
-            state.products=state.products.filter(p=p._id!=action.payload)
+            state.products=state.products.filter(p=>p._id!=action.payload)
         })
 
     }

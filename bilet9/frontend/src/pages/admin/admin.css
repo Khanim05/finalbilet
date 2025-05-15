@@ -1,0 +1,48 @@
+#admin-area .image{
+    width: 120px;
+    height: 120px;
+}
+Table{
+    text-align: center;
+    margin-top: 10px;
+}
+.desc{
+    width: 500px;
+    text-align: justify;
+    
+}
+td,th{
+    vertical-align: middle;
+}
+.header{
+    background-color: rgb(11, 141, 248);
+    height: 100px;
+}
+.header h1{
+color: white;
+margin-top: 20px;
+text-align: center;
+}
+.create{
+    margin-top: 20px;
+    width: 140px;
+}
+
+
+Form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    right: -40%;
+    top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+Form p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}

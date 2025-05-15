@@ -8,7 +8,7 @@ import { decrement, increment, remove } from '../../redux/features/basket';
 const Basket = () => {
   let {basket}=useSelector(p=>p.basket)
   let dispatch=useDispatch()
-  let total=basket.reduce((acc,sum)=>acc+sum.count*sum.price,0)
+  let total=basket.reduce((acc,sum)=>(acc+sum.count*sum.price),0)
   return (
     <div id='basket-area'>
       <div className="header">
@@ -46,7 +46,7 @@ const Basket = () => {
           ))
         }
       </tbody>
-      <Button className='total'><p>Total Price: $ {total}</p></Button>
+      <Button className='total'><p>Total Price: $ {total.toFixed(0)}</p></Button>
     </Table>
     
     </div>
