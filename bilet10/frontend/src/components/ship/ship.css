@@ -1,0 +1,36 @@
+#ship-area .ships{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#ship-area .ships .ship{
+    display: flex;
+    gap: 20px;
+}
+#ship-area .ship .icon{
+    font-size: 40px;
+    color: rgb(101, 64, 150);
+}
+#ship-area .content{
+    width: 350px;
+}
+#ship-area .content .free{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#ship-area .content .text{
+    opacity: 0.8;
+    line-height: 30px;
+}
+
+@media screen and (max-width:762px){
+ 
+#ship-area .ships{
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+#ship-area .icon{
+    margin-left: 50px;
+}
+}

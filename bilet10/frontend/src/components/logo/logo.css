@@ -1,0 +1,10 @@
+#logo h2{
+    border: 1px solid;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-size: 18px;
+    width: 140px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

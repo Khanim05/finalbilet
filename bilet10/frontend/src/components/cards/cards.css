@@ -1,0 +1,40 @@
+#card-area .card-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+#card-area .card-area .cards{
+    position: relative;
+}
+#card-area{
+    margin-top: 150px;
+}
+.card-area img{
+    width: 349px;
+    height: 450px;
+}
+#card-area .card-area .cards .content{
+    position: absolute;
+    color: rgb(39, 39, 39);
+    bottom: -2%;
+    right: 65%;
+}
+#card-area .card-area .content p{
+font-size: 30px;
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen  and (max-width:762px){
+  #card-area .card-area{
+   justify-content: center;  
+   gap: 20px;
+}
+#card-area .card-area .cards .content{
+    right: 50%;
+}
+
+}

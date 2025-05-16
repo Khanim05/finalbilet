@@ -1,0 +1,44 @@
+#product-area .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#product-area{
+    margin-top: 150px;
+}
+.product{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#product-area .header h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#product-area button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgb(166, 125, 204);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+#product-area .filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen  and (max-width:762px){
+   #product-area .products{
+  justify-content: center;
+}
+#product-area .filter{
+    padding: 40px
+}
+}

@@ -1,0 +1,47 @@
+
+#card-area{
+    margin-top: 150px;
+}
+.detailCard .image{
+    width: 447px;
+    height: 306px;
+}
+.detailCard{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-area1{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 3px;
+    height: 540px;
+}
+
+.card-area1 .content1 .title{
+    color: rgb(166, 125, 204);
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-area1 .content1 .text{
+    opacity: 0.6;
+}
+.content1 .price{
+    color:rgb(166, 125, 204);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.detailCard button{
+    background-color: rgb(166, 125, 204); 
+    color:white;
+    height: 40px;
+    border: none;
+
+}

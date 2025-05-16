@@ -1,0 +1,34 @@
+#basket-area .image{
+    width: 159px;
+    height: 113px;
+}
+Table{
+    text-align: center;
+}
+td{
+    vertical-align: middle;
+}
+.count-area{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.count-area button{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(166, 125, 204);
+    color: rgb(166, 125, 204);;
+}
+.count-area p{
+    font-weight: bold;
+}
+.total{
+    background-color: rgb(166, 125, 204);;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 4px;
+}

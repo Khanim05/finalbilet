@@ -1,0 +1,17 @@
+#list .list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.list a{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px
+}
+
+@media screen and (max-width:762px){
+    #list .list{
+        display: none !important;
+    }
+}
