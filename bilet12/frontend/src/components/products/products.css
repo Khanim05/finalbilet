@@ -1,0 +1,36 @@
+#product-area{
+    margin-top: 150px;
+    background-color: #212529;
+}
+#product-area .product-area{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#product-area .product-area .header{
+    text-align: center;
+}
+#product-area .header h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #7d1eff;
+    opacity: 0.7;
+}
+.header p{
+    color: white;
+}
+.header h1 span{
+    font-weight: bold;
+    font-size: 45px;
+    color: #7d1eff;
+}
+.product-area .products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+

@@ -1,0 +1,27 @@
+Table{
+    text-align: center;
+    margin-top: 20px;
+}
+td,th{
+vertical-align: middle;
+}
+#basket-area .image{
+    width: 200px;
+    height: 200px;
+}
+#basket-area .count-area{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+#basket-area .count-area button{
+    width: 30px;
+    height: 30px;
+}
+#basket-area .header h4 span{
+font-size: 15px;
+}
+#basket-area .header{
+    margin-left: 10px;
+    margin-top: 20px;
+}

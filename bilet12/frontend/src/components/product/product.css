@@ -1,0 +1,28 @@
+#card-area .cards .image{
+width: 374px;
+height: 446px;
+}
+.cards{
+     margin-top: 30px;
+}
+.cards .content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.cards .content button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #7d1eff;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.cards .content .price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

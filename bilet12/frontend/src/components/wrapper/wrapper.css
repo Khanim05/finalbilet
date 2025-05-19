@@ -1,0 +1,42 @@
+#wrapper-area{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper-area a{
+    color: white;
+    font-size: 20px;
+}
+#wrapper-area .burger{
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+#wrapper-area a sup{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2px;
+}
+#wrapper-area button{
+    width: 160px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #7d1eff;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media screen and (max-width:762px) {
+    .burger{
+        display: block !important;
+    }
+    #wrapper-area{
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+}

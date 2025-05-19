@@ -1,0 +1,17 @@
+.fixed{
+    height: 80px;
+    background-color: rgb(49, 49, 49);
+}
+.navbar-area{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media screen and (max-width:762px) {
+    .navbar-area {
+        padding: 10px;
+    }
+}
