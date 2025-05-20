@@ -1,0 +1,61 @@
+/* #card-area .cards{
+
+} */
+#detail-area .image{
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+}
+#detail-area .cards{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 20px;
+}
+#detail-area .content{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#detail-area button{
+    border: none;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+}
+#detail-area .content .price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+#detail-area .header{
+    background-color:rgb(255, 166, 0);
+    color: white;
+    height: 100px;
+}
+#detail-area .header h1{
+    margin-top: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width:762px) {
+#detail-area .cards{
+    margin-top: 20px;
+    gap: 0;
+   flex-wrap: wrap;
+   height: auto;
+}
+#detail-area .image{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+}
+
+

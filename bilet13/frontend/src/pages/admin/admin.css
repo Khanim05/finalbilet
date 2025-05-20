@@ -1,0 +1,43 @@
+Table{
+    margin-top: 20px;
+    text-align: center;
+
+}
+td,th{
+    vertical-align: middle;
+}
+#basket-area .image{
+  width: 250px;
+  height: 200px;
+}
+#basket-area {
+    margin-top: 60px;
+}
+Table .desc{
+width: 400px;
+text-align: justify;
+margin-left: 100px;
+}
+Form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    right: -40%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#basket-area .header{
+    background-color:rgb(255, 166, 0);
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#basket-area .header h1{
+    text-align: center;
+}
+

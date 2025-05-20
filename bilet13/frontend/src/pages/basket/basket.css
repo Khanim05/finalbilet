@@ -1,0 +1,44 @@
+Table{
+    text-align: center;
+
+}
+td,th{
+    vertical-align: middle;
+}
+#basket-area {
+  padding: 20px;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+#basket-area .image{
+  width: 250px;
+  height: 200px;
+}
+#basket-area {
+    margin-top: 60px;
+}
+.count-area{
+    display: flex;
+    gap: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.count-area button{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    border: none;
+}
+.count-area p{
+    color: black;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+

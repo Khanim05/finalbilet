@@ -1,0 +1,39 @@
+#about-area .image{
+    width: 590px;
+    height: 650px;
+}
+#about-area .about{
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#about-area .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    justify-content: center;
+    /* align-items: center; */
+}
+#about-area .content .title{
+    opacity: 0.6;
+}
+#about-area .content .text{
+    font-size: 30px;
+    opacity: 0.9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#about-area .content .desc,.desc2{
+    opacity: 0.4;
+    font-size: 18px;
+}
+@media screen and (max-width:762px) {
+    .about{
+        
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+}

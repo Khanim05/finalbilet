@@ -1,0 +1,42 @@
+#main-area{
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_1.jpg.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main-area .content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+gap: 20px;
+align-items: center;
+color: white;
+}
+#main-area .content p{
+    font-size: 40px;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#main-area .content button{
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+    width: 150px;
+    font-family: 18px;
+}
+
+
+@media screen and (max-width:762px) {
+    #main-area .content{
+        padding: 40px;
+    }
+    #main-area .content p{
+        font-size: 30px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,71 @@
+#product-area .product-area{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.product-area .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-area .header p{
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.product-area .header h5{
+    font-size: 30px;
+    opacity: 0.9;
+}
+.product-area .header .btn-area{
+    display: flex;
+    gap: 20px;
+}
+.product-area .header .btn-area button{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    font-weight: bold;
+}
+.mainBtn{
+    background-color: rgb(255, 166, 0) !important;
+}
+.product-area .filter{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.product-area .filter button{
+    width: 140px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: rgb(255, 166, 0) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.product-area .filter input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.product-area .products{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+@media screen and (max-width:762px) {
+   .product-area .filter{
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 10px;  
+}
+}

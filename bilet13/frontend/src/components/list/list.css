@@ -1,0 +1,19 @@
+#list-area .list{
+    display: flex;
+    gap: 25px;
+}
+.list li a{
+   color: rgb(90, 90, 90);
+    font-size: 15px;
+    font-variant: small-caps;
+}
+.list li a:hover{
+   color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-variant: small-caps;
+}
+@media screen and (max-width:762px) {
+   .list li a{
+    display: none;
+   }
+}
