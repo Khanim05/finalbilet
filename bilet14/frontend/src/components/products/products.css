@@ -1,0 +1,11 @@
+#product-area{
+    margin-top: 250px;
+}
+#product-area .product{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 40px;
+}

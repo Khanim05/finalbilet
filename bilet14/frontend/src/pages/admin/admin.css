@@ -1,0 +1,26 @@
+#basket-area{
+    margin-top: 80px;
+}
+#basket-area .image{
+    width: 350px;
+    height: 300px;
+}
+Table{
+    text-align: center;
+    margin-top: 20px;
+}
+th,td{
+    vertical-align: middle;
+}
+
+#basket-area .header{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.description{
+    text-align: justify;
+    width: 320px;
+    margin-left: 20px;
+}

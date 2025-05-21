@@ -1,0 +1,38 @@
+.cards .image{
+    width: 338px;
+    height: 200px;
+    border-radius: 10px;
+}
+.cards{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cards .content{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    width: 300px;
+}
+.cards .content h5{
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.cards .content .text{
+    opacity: 0.8;
+}
+.cards .content .price{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards .content .learn{
+opacity: 0.9;
+}
+.cards .content .add{
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+}
+

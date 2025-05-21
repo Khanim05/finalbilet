@@ -1,0 +1,37 @@
+#basket-area{
+    margin-top: 80px;
+}
+#basket-area .image{
+    width: 350px;
+    height: 300px;
+}
+Table{
+    text-align: center;
+}
+th,td{
+    vertical-align: middle;
+}
+
+.count-area{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.count-area button{
+    background-color: red;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+}
+.count-area p{
+    font-weight: bold;
+    margin-top: 2px;
+}
+#basket-area .header{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}

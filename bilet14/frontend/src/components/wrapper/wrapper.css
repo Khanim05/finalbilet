@@ -1,0 +1,26 @@
+#wrapper-area{
+    display: flex;
+    gap: 10px;
+}
+#wrapper-area .icon{
+    color: white;
+    font-size: 20px;
+}
+#wrapper-area sup{
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 17px;
+}
+#wrapper-area .burger{
+    font-size: 24px;
+    color: white;
+    z-index: 2;
+    display: none;
+}
+
+@media screen and (max-width:762px) {
+    .burger{
+        display: block !important;
+    }
+}

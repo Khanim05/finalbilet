@@ -1,0 +1,14 @@
+.list {
+    display: flex;
+    gap: 50px;
+}
+.list li a {
+    color: white;
+    font-size: 22px;
+    font-family:serif
+}
+@media screen and (max-width:762px) {
+    .list li a {
+        display: none;
+    }
+}
